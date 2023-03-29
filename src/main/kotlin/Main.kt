@@ -5,7 +5,7 @@ fun main()
     val sentences = GetSentences(text);
     val numberOfWords = GetNumberOfWords(sentences);
 
-    println("Предложения в порядке убывания количества слов в них:");
+    println("Предложения и количество слов в них:");
     for (i in 0 until sentences.size)
     {
         println("Количество слов: ${numberOfWords[i]}. ${sentences[i].trimStart().trimEnd()}");
@@ -22,7 +22,8 @@ fun GetNumberOfWords(sentences: List<String>): Array<Int> //принимает �
     val numberOfWords = Array<Int>(sentences.size) {0};
     for (i in 0 until sentences.size)
     {
-        numberOfWords[i] = sentences[i].trimStart().trimEnd().split(" ").size;
+        numberOfWords[i] = sentences[i].trimStart().trimEnd().split(Regex("\\s+")).size;
+        //Regex("\\s+") нужен для того что бы предложение типа "Привет,  мир!" (там два пробела) не распознавалось как предложение из трех слов
     }
 
     return numberOfWords;
