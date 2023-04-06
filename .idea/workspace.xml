@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea840258-fa07-4afd-8036-b059d7531729" name="Changes" comment="Финал?">
+    <list default="true" id="ea840258-fa07-4afd-8036-b059d7531729" name="Changes" comment="Финал...?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680117275640</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Финал...?">
+      <created>1680117680470</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680117680470</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +130,7 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Оглушительный успех" />
     <MESSAGE value="Финал?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Финал?" />
+    <MESSAGE value="Финал...?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Финал...?" />
   </component>
 </project>
