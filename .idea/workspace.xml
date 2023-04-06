@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea840258-fa07-4afd-8036-b059d7531729" name="Changes" comment="Почти финал">
-      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/text.txt" afterDir="false" />
-    </list>
+    <list default="true" id="ea840258-fa07-4afd-8036-b059d7531729" name="Changes" comment="Ну все, точно финал" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680796230776</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ну все, точно финал">
+      <created>1680799500419</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680799500419</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ну все, точно финал">
+      <created>1680799547966</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680799547966</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +149,7 @@
     <MESSAGE value="Финал?" />
     <MESSAGE value="Финал...?" />
     <MESSAGE value="Почти финал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Почти финал" />
+    <MESSAGE value="Ну все, точно финал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ну все, точно финал" />
   </component>
 </project>

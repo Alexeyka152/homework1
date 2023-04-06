@@ -7,19 +7,16 @@ fun main() {
     println("Если вы не хотите считывать текст из файла, можете просто ввести его в консоль.")
     val input: String = readLine() ?: ""
     println()
-    getStatistic(input)
-}
 
-fun getStatistic(text: String) {
     val fileWriter = try {
-        FileWriter("src\\main\\kotlin\\$text", true)
+        FileWriter("src\\main\\kotlin\\$input", true)
     } catch (e: Exception) {
         null
     }
     val finalText = try{
-        File("src\\main\\kotlin\\$text").readText()
+        File("src\\main\\kotlin\\$input").readText()
     } catch (e: Exception) {
-        text
+        input
     }
     val sentences = finalText.trimEnd('.', '!', '?').split(".", "!", "?")
     val numberOfWords = sentences.map { it.trimStart().trimEnd().split(Regex("\\s+")).size }
